@@ -1,0 +1,10 @@
+/* Définition de la variable pour la couleur bleue */ 
+$blue: #0000ff;
+
+/* Styles pour les éléments de liste */
+ ul 
+ { li { color: $blue; /* Applique la couleur de texte bleue */
+     padding-left: 10px; /* Ajoute un espacement intérieur de 10 pixels à gauche */ 
+     margin-bottom: 15px; /* Donne une marge inférieure de 15 pixels */ 
+    } 
+}

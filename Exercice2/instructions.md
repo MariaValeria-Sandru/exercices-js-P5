@@ -6,7 +6,7 @@ Créez une **page web** qui présente votre groupe de musique préféré. La pag
 2. Une **image** du groupe de musique ;
 3. Une **brève description** du groupe et de son style musical ;
 4. Une **liste** des membres du groupe avec leur rôle (chanteur, guitariste, batteur, etc.) ;
-6. Un **lien** vers une de vos chansons préférées sur une plateforme de streaming.
+5. Un **lien** vers une de vos chansons préférées sur une plateforme de streaming.
 
 N’oubliez pas d’ajouter le titre aussi dans le `<head>`.
 

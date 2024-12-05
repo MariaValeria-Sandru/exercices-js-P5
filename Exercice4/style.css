@@ -1,0 +1,74 @@
+/* Couleurs d'arrière-plan */
+header {
+    background-color: #FFCC99;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre */
+    padding: 10px;
+}
+
+main {
+    background-color: #E6F2FF;
+    margin: 20px; /* Marge de 20 pixels autour de la section principale */
+    display: flex;
+}
+
+aside {
+    background-color: #B3D9FF;
+    flex: 1; /* Flex 1 pour la barre latérale */
+    border: 1px solid #CCC; /* Bordure de 1 pixel grise */
+    padding: 10px;
+}
+
+section {
+    flex: 3; /* Flex 3 pour le contenu principal */
+    padding: 10px;
+}
+
+footer {
+    background-color: #99CC99;
+    text-align: center;
+    border: 1px solid #CCC; /* Bordure de 1 pixel grise */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajouter une ombre */
+    padding: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    min-height: 100vh;
+}

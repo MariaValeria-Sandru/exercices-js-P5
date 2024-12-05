@@ -50,4 +50,27 @@ main {
 section {
     margin-bottom: 20px;
 }
+/*//  Ajouter footer/*/
+footer { 
+    background-color: #333; 
+    color: #fff; text-align: 
+    center; padding: 10px 0; 
+}
+/*////////////////////////////////// /*/
 
+
+/* Media query pour les écrans de taille maximale de 768px */ 
+@media (max-width: 768px) {
+     header h1 {
+         font-size: 20px; /* Réduire la taille de la police du titre principal */
+         } 
+         nav ul {
+             display: flex;
+             flex-direction: column; /* Afficher les éléments de navigation en une seule colonne */ 
+             align-items: center; /* Centrer les éléments de navigation */
+             } 
+             nav ul li { 
+                margin-bottom: 10px; /* Ajouter une marge inférieure pour espacer les éléments */ 
+                 /* display: block;Changer l'affichage des éléments de navigation en bloc */ 
+            }
+         }
